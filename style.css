@@ -1,4 +1,14 @@
 /* Custom CSS for rounded and flippable cards */
+
+/* Center the container both horizontally and vertically */
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 .card {
     border-radius: 20px; /* Rounded corners */
 }
