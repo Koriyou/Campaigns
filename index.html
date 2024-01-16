@@ -44,6 +44,7 @@
                             </div>
                         </div>
                         <!-- Back of the Card -->
+                        <!-- Link to Campaign1.html when clicked on-->
                         <div class="flip-card-back">
                             <div class="card">
                                 <div class="card-body">
@@ -111,5 +112,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const flipCardBack = document.querySelector(".flip-card-back");
+        flipCardBack.addEventListener("mouseenter", function() {
+            flipCardBack.style.cursor = "pointer";
+        });
+        flipCardBack.addEventListener("mouseleave", function() {
+            flipCardBack.style.cursor = "default";
+        });
+        flipCardBack.addEventListener("click", function() {
+            window.location.href = "Campaign1.html";
+        });
+    </script>
 </body>
 </html>

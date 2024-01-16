@@ -1,0 +1,8 @@
+/* Style for the body to change the paragraphs fonts to roboto and and align the paragraph vertically and horizontally */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
