@@ -21,7 +21,7 @@ def campaign1(request):
     for filename in os.listdir(markdown_directory):
         if filename.endswith(".md"):
             # Read the Markdown content from the file
-            with open(os.path.join(markdown_directory, filename), "r") as file:
+            with open(os.path.join(markdown_directory, filename), "r", encoding="utf-8") as file:
                 markdown_content = file.read()
 
                 # Convert Markdown to HTML
