@@ -3,101 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Alchemist's Road</title>
+    <title>Campaign 1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Navbar -->
-{% include 'campaign_app/navbar.html' %}
+    <!-- This is a navigation bar -->
+    {% include 'campaign_app/navbar.html' %}
 
-<!-- Content container -->
-<div class="container mt-5 p-4">
-    <h1 class="text-center">The Alchemist's Way</h1>
-    <!-- Session 1 Card -->
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title">Session 1</h2>
-            <h2>Summary</h2>
-            <h4>Session 1</h4>
-            <h5>Date: 26/12/2023</h5>
-            <p>
-                The session began with Teddy bidding farewell to the village of Bearne.
-                Before his departure, he received several parting gifts from the villagers:
-                <ul>
-                    <li>Grigor</li>
-                    <li>Alaric</li>
-                    <li>Isolde</li>
-                    <li>Lyra</li>
-                </ul>
-                Teddy’s journey is taking him to the port town of Verena, expected to be a 10.5-day journey.
-                Presently, he finds himself four days into his voyage when an extraordinary event occurred:
-                <ul>
-                    <li>On the third day of his journey, an unusual flower descended from the sky. This peculiar flower has the remarkable ability to grow when nourished and is composed of an otherworldly metal. Astonishingly, the flower fused itself with Teddy's hand, turning it into a golden appendage.</li>
-                    <li>This enigmatic flower, which goes by the name Christa, possesses knowledge related to alchemy and transmutation. It has made a promise to educate Teddy in these arcane arts if he assists her in achieving a transformation of her own.</li>
-                </ul>
-            </p>
-            <p>The session has seen the arrival of 2 new players:</p>
-            <ul>
-                <li>+1 character = Solomon</li>
-                <li>+1 character = Jack</li>
-            </ul>
-            <h3 class="card-subtitle mb-2 text-muted">Awarded CP</h3>
-            <p class="card-text">...</p>
+    <div class="container mt-5">
+        <h1>Campaign 1</h1>
+
+        <!-- Iterate through Markdown content and create cards -->
+        {% for markdown_text in markdown_content %}
+        <div class="card">
+            <div class="card-body">
+                {{ markdown_text|safe }}
+            </div>
         </div>
+        {% endfor %}
     </div>
-    <!-- Session 2 Card -->
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title">Session 2</h2>
-            <h2>Summary</h2>
-            <h4>Session 2</h4>
-            <p>
-                <ul>
-                    <li><a href="Teddy.html">Teddy</a>
-                        <ul>
-                            <li>morning routine</li>
-                            <li>breakfast</li>
-                            <li>splashes the guys awake</li>
-                        </ul>
-                    </li>
-                    <li><a href="Jack.html">jack</a>
-                        <ul>
-                            <li>morning routine</li>
-                            <li>breakfast</li>
-                        </ul>
-                    </li>
-                    <li><a href="Alchemist_Road\Solomon.html">Solomon</a>
-                        <ul>
-                            <li>morning routine</li>
-                            <li>breakfast</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>they encountered <a href="Barrel_Knight">huhum knight</a> and <a href="Sharlatan">huhum wizard</a> and fought them</p>
-                <p>they arrived at <a href="Alchemist_Road\Brezhech.html">Brezhech</a></p>
-                <p>panda bought 2 ounces of garlic powder and 2 ounces of paprika</p>
-                <p>jack is trying to entertain the masses to get some money</p>
-                <p>solomon is looking for bottles, cages, and containers</p>
-            <h3 class="card-subtitle mb-2 text-muted">Awarded CP</h3>
-            <p class="card-text">...</p>
-        </div>
-    </div>
-    <!-- Session 3 Card -->
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title">Session 3</h2>
-            <h2>Summary</h2>
-            <h4>Session 3</h4>
-            <h5>Placeholder</h5>
-            <p>Placeholder</p>
-            <h3 class="card-subtitle mb-2 text-muted">Awarded CP</h3>
-            <p class="card-text">...</p>
-        </div>
-    </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
