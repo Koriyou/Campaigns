@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b42a58d-26c3-4fcf-9e95-22e5aeb0876c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/campaign_project/campaign_app/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3b42a58d-26c3-4fcf-9e95-22e5aeb0876c" name="Changes" comment="Managed to make the index.html work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alchemist_Road/Brezhech.html" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_project/campaign_app/templates/campaign/Brezhech.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alchemist_Road/Solomon.html" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_project/campaign_app/templates/campaign/Solomon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Campaign1.html" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_project/campaign_app/templates/campaign/Campaign1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_project/campaign_app/templates/campaign/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/campaign_project/campaign_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_project/campaign_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/campaign_project/campaign_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_project/campaign_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +47,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ytaal\Documents\GitHub\Campaigns\campaign_project\campaign_app\templates\campaign" />
+      <recent name="C:\Users\ytaal\Documents\GitHub\Campaigns\campaign_project\campaign_app\templates\campaign_app" />
       <recent name="C:\Users\ytaal\Documents\GitHub\Campaigns\campaign_project\campaign_app\templates" />
       <recent name="C:\Users\ytaal\Documents\GitHub\Campaigns\campaign_project\campaign_app" />
+      <recent name="C:\Users\ytaal\Documents\GitHub\Campaigns\campaign_project\campaign_app\templates\campaign" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -74,9 +71,22 @@
       <workItem from="1705423928773" duration="5000" />
       <workItem from="1705467156776" duration="8000" />
     </task>
+    <task id="LOCAL-00001" summary="Managed to make the index.html work">
+      <option name="closed" value="true" />
+      <created>1705468600832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705468600832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Managed to make the index.html work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Managed to make the index.html work" />
   </component>
 </project>
