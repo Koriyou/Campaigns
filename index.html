@@ -113,17 +113,24 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        const flipCardBack = document.querySelector(".flip-card-back");
-        flipCardBack.addEventListener("mouseenter", function() {
-            flipCardBack.style.cursor = "pointer";
-        });
-        flipCardBack.addEventListener("mouseleave", function() {
-            flipCardBack.style.cursor = "default";
-        });
-        flipCardBack.addEventListener("click", function() {
-            window.location.href = "Campaign1.html";
-        });
-    </script>
+<script>
+    const flipCardBack = document.querySelector(".flip-card-back");
+
+    // Add event listener for when the mouse enters the element
+    flipCardBack.addEventListener("mouseenter", function() {
+        flipCardBack.style.cursor = "pointer";
+    });
+
+    // Add event listener for when the mouse leaves the element
+    flipCardBack.addEventListener("mouseleave", function() {
+        flipCardBack.style.cursor = "default";
+    });
+
+    // Add event listener for when the element is clicked
+    flipCardBack.addEventListener("click", function() {
+        // Redirect the page to "Campaign1.html"
+        window.location.href = "Campaign1.html";
+    });
+</script>
 </body>
 </html>
